@@ -35,7 +35,7 @@
     "publicIPAddressName": "myPublicIP",
     "publicIPAddressType": "Dynamic",
     "vmName": "MyUbuntuVM",
-    "vmSize": "Standard_D1",
+    "vmSize": "Standard_DS2",
     "virtualNetworkName": "[concat(parameters('networkSettings').virtualNetworkName)]",
     "subnetRef": "[parameters('networkSettings').subnetRef]"
   },
